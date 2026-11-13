@@ -383,19 +383,6 @@ button {
   border-radius: 28px 0 0 0;
 }
 
-.hero__figure::before {
-  content: "";
-  position: absolute;
-  inset: 10% 0 16% -6%;
-  z-index: 0;
-  background: radial-gradient(
-    54% 52% at 52% 42%,
-    rgba(245, 189, 169, 0.95),
-    rgba(245, 189, 169, 0) 70%
-  );
-  filter: blur(4px);
-}
-
 .hero__figure img {
   position: relative;
   z-index: 1;
@@ -405,7 +392,9 @@ button {
   min-height: inherit;
   object-fit: cover;
   object-position: center top;
-  mix-blend-mode: multiply;
+  filter: none;
+  mix-blend-mode: normal;
+  opacity: 1;
 }
 
 .hero__figure::after {
@@ -985,10 +974,6 @@ section h2 {
     margin-inline: calc(-1 * var(--pad-x));
     margin-top: 10px;
     border-radius: 0;
-  }
-
-  .hero__figure::before {
-    inset: 10% 2% 0 2%;
   }
 
   .about {
