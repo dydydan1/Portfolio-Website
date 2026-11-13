@@ -206,18 +206,23 @@ export default function App() {
                   About
                 </p>
                 <h2 data-reveal style={{ "--d": 60 }}>
-                  Most of my work starts with someone's spreadsheet.
+                  I build web applications that turn ideas into working
+                  solutions.
                 </h2>
                 <p data-reveal style={{ "--d": 120 }}>
-                  A business outgrows the file it started with. The orders sit in
-                  one tab, the schedule in another, and the rest lives in a group
-                  chat. I build the single place where that work actually
-                  happens.
+                  I'm a BSIT student and aspiring Full-Stack Developer from the
+                  Philippines, passionate about building practical web
+                  applications that solve real-world problems. I enjoy turning
+                  ideas into functional, user-friendly experiences through clean
+                  interfaces and reliable backend systems.
                 </p>
                 <p data-reveal style={{ "--d": 160 }}>
-                  I handle the whole build: the database, the server, and the
-                  screen people touch. You get one person to talk to and no
-                  handoffs between teams.
+                  I work across the stack, from designing interfaces and
+                  developing frontend features to building APIs, managing
+                  databases, and connecting everything into one working
+                  application. I'm continuously learning, improving my skills,
+                  and building projects that challenge me to grow as a
+                  developer.
                 </p>
               </div>
 
@@ -225,23 +230,25 @@ export default function App() {
                 <dl className="facts">
                   <dt>Based in</dt>
                   <dd>The Philippines</dd>
-                  <dt>Focus</dt>
-                  <dd>Web apps, ordering, internal tools</dd>
+                  <dt>Role</dt>
+                  <dd>Aspiring Full-Stack Developer</dd>
+                  <dt>Tech stack</dt>
+                  <dd>React, Node.js, Express, MySQL</dd>
                   <dt>Availability</dt>
-                  <dd>Taking on new projects</dd>
+                  <dd>Open to Internship &amp; Opportunities</dd>
                 </dl>
 
                 <div className="services">
                   <p className="eyebrow">What I build</p>
                   <ol>
                     <li>
-                      <span>01</span>Customer-facing web apps
+                      <span>01</span>— Full-Stack Web Applications
                     </li>
                     <li>
-                      <span>02</span>Storefronts and ordering
+                      <span>02</span>— Database-Driven Systems &amp; APIs
                     </li>
                     <li>
-                      <span>03</span>Dashboards and admin tools
+                      <span>03</span>— Admin Dashboards &amp; Management Systems
                     </li>
                   </ol>
                 </div>
