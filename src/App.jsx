@@ -147,26 +147,23 @@ export default function App() {
                   <span className="badge__mark" aria-hidden="true">
                     <Sparkle />
                   </span>
-                  Available for new projects
+                  Open to Internship &amp; Junior Developer Opportunities
                 </p>
 
                 <h1 className="hero__title" data-reveal style={{ "--d": 60 }}>
-                  I build web apps{" "}
-                  <br />
-                  that replace the{" "}
-                  <br />
-                  <em>spreadsheet.</em>
+                  I turn ideas into functional web applications.
                 </h1>
 
                 <p className="hero__lede" data-reveal style={{ "--d": 140 }}>
-                  I'm Dy ann, a full-stack developer in the Philippines. I take
-                  the work you run on paper, files, and group chats and turn it
-                  into software your team opens every morning.
+                  I'm Dy Ann, an aspiring Full-Stack Developer from the
+                  Philippines. I build responsive web experiences, develop
+                  backend systems, and turn real-world problems into practical
+                  software solutions.
                 </p>
 
                 <div className="hero__actions" data-reveal style={{ "--d": 220 }}>
                   <a className="btn btn--primary" href="#work">
-                    See the work
+                    See My Projects
                     <ArrowUpRight />
                   </a>
                   <button
@@ -174,7 +171,7 @@ export default function App() {
                     className="btn btn--ghost"
                     onClick={openBooking}
                   >
-                    Book a call
+                    Get In Touch
                     <Chat />
                   </button>
                 </div>
