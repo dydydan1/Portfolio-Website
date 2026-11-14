@@ -381,6 +381,7 @@ button {
   margin: 0 calc(-1 * var(--pad-x)) 0 0;
   min-height: clamp(420px, 43vw, 590px);
   border-radius: 28px 0 0 0;
+  background: var(--surface);
 }
 
 .hero__figure img {
@@ -393,7 +394,7 @@ button {
   object-fit: cover;
   object-position: center top;
   filter: none;
-  mix-blend-mode: normal;
+  mix-blend-mode: multiply;
   opacity: 1;
 }
 
