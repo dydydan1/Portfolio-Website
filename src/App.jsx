@@ -179,7 +179,7 @@ export default function App() {
 
               <figure className="hero__figure" data-reveal style={{ "--d": 120 }}>
                 <img
-                  src="/profile-hero.jpg"
+                  src={`${import.meta.env.BASE_URL}profile-hero.jpg`}
                   alt="Portrait of Dy ann Razonado"
                   width="886"
                   height="900"

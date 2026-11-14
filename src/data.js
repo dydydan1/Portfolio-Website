@@ -6,6 +6,7 @@ export const CALENDLY_EMBED =
   "?hide_gdpr_banner=1&primary_color=C9431D&embed_type=Inline&embed_domain=dyannrazonado.vercel.app";
 
 export const EMAIL = "dyann.razonado.5@gmail.com";
+const assetBase = import.meta.env.BASE_URL;
 
 export const projects = [
   {
@@ -17,7 +18,7 @@ export const projects = [
       "A to-do list with accounts, so tasks survive a refresh. Create, edit, tick off, and clear them from one screen, with a database holding the list.",
     tags: ["React", "Full-stack", "CRUD"],
     href: "https://crud-react-vert-eight.vercel.app/",
-    image: "/work/tasksy.jpg",
+    image: `${assetBase}work/tasksy.jpg`,
     alt: "Tasksy landing page with the headline “Keep your tasks organized and simple.”",
   },
   {
@@ -29,7 +30,7 @@ export const projects = [
       "Buyers attach a personal note to an order. The shop prints it as a QR code on the box, and whoever opens the cake scans it to read the message.",
     tags: ["QR codes", "Ordering", "Accounts"],
     href: "https://crumbcoded.onrender.com/",
-    image: "/work/crumbcoded.jpg",
+    image: `${assetBase}work/crumbcoded.jpg`,
     alt: "CrumbCoded sign-in screen for its QR message studio.",
   },
   {
@@ -41,7 +42,7 @@ export const projects = [
       "Memberships, trainer schedules, and payments in one admin. Built as my capstone, and it now runs a real gym under the name ASG Strength.",
     tags: ["Capstone", "Admin", "Scheduling"],
     href: "https://asgstrength.online/",
-    image: "/work/gymhub.jpg",
+    image: `${assetBase}work/gymhub.jpg`,
     alt: "ASG Strength homepage with the headline “Transform Your Body, Transform Your Life”.",
   },
 ];
