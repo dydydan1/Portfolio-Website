@@ -182,7 +182,7 @@ export default function App() {
                   src={`${import.meta.env.BASE_URL}profile-dark.png`}
                   alt="Portrait of Dy ann Razonado"
                   width="886"
-                  height="900"
+                  height="811"
                   fetchPriority="high"
                   decoding="async"
                 />
