@@ -151,7 +151,7 @@ export default function App() {
                 </p>
 
                 <h1 className="hero__title" data-reveal style={{ "--d": 60 }}>
-                  I turn ideas into functional web applications.
+                  I turn ideas into <em>functional web applications.</em>
                 </h1>
 
                 <p className="hero__lede" data-reveal style={{ "--d": 140 }}>
@@ -179,7 +179,7 @@ export default function App() {
 
               <figure className="hero__figure" data-reveal style={{ "--d": 120 }}>
                 <img
-                  src={`${import.meta.env.BASE_URL}profile-hero.jpg`}
+                  src={`${import.meta.env.BASE_URL}profile-dark.png`}
                   alt="Portrait of Dy ann Razonado"
                   width="886"
                   height="900"
